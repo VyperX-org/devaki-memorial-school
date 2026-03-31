@@ -1,0 +1,156 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #f4f8fa;
+    --foreground: #17191c;
+    --card: #ffffff;
+    --card-foreground: #17191c;
+    --popover: #ffffff;
+    --popover-foreground: #17191c;
+    --primary: #1c77c6;
+    --primary-foreground: #f8f9fa;
+    --secondary: #d2cf21;
+    --secondary-foreground: #17191c;
+    --muted: #e1e5e7;
+    --muted-foreground: #5c6670;
+    --accent: #45b58b;
+    --accent-foreground: #f8f9fa;
+    --destructive: #e74c3c;
+    --destructive-foreground: #f8f9fa;
+    --border: #dadfe4;
+    --input: #dadfe4;
+    --ring: #2396aa;
+    --chart-1: #2396aa;
+    --chart-2: #45b58b;
+    --chart-3: #263d4d;
+    --chart-4: #dbb434;
+    --chart-5: #eb984e;
+    --sidebar-background: #ffffff;
+    --sidebar-foreground: #17191c;
+    --sidebar-primary: #2396aa;
+    --sidebar-primary-foreground: #f8f9fa;
+    --sidebar-accent: #45b58b;
+    --sidebar-accent-foreground: #f8f9fa;
+    --sidebar-border: #dadfe4;
+    --sidebar-ring: #2396aa;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: #0b0d17;
+    --foreground: #f5f7fa;
+    --card: #5d5d60;
+    --card-foreground: #f5f7fa;
+    --popover: #0b0d17;
+    --popover-foreground: #f5f7fa;
+    --primary: #FDC800;
+    --primary-foreground: #191c25;
+    --secondary: #7e66eb;
+    --secondary-foreground: #191c25;
+    --muted: #272c38;
+    --muted-foreground: #9ba5b5;
+    --accent: #66e0b8;
+    --accent-foreground: #191c25;
+    --destructive: #802b2b;
+    --destructive-foreground: #f5f7fa;
+    --border: #272c38;
+    --input: #272c38;
+    --ring: #66cce0;
+    --sidebar-background: #10121d;
+    --sidebar-foreground: #f5f7fa;
+    --sidebar-primary: #66cce0;
+    --sidebar-primary-foreground: #191c25;
+    --sidebar-accent: #66e0b8;
+    --sidebar-accent-foreground: #191c25;
+    --sidebar-border: #272c38;
+    --sidebar-ring: #66cce0;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+  }
+
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Smooth transitions for all interactive elements */
+  button, a, input, select, textarea {
+    @apply transition-colors duration-200 ease-out;
+  }
+
+  /* Smooth hover effects */
+  .smooth-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  /* Page transition effect */
+  .page-transition {
+    @apply animate-fade-in;
+  }
+
+  /* Stagger animation for lists */
+  .stagger-item {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  /* Smooth delay utilities */
+  .delay-75 {
+    transition-delay: 75ms;
+  }
+  .delay-100 {
+    transition-delay: 100ms;
+  }
+  .delay-150 {
+    transition-delay: 150ms;
+  }
+  .delay-200 {
+    transition-delay: 200ms;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.social-bar-item {
+  @apply transition-all duration-300 ease-in-out flex items-center justify-center;
+}
+
+.social-bar-item:hover {
+  @apply w-32 justify-between px-4;
+}
+
+.social-bar-item span {
+  @apply opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap overflow-hidden;
+}
