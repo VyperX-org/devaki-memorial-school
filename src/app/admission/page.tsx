@@ -33,41 +33,41 @@ export default function AdmissionPage() {
     { class: 'CLASS V TO XII', duration: '08:50 AM - 02:40 PM' },
   ];
 
-  const detailedFees = [
-    { class: 'Pre Nursery', kit: '2300', exam: '1800', tuition: '1700', admission: '16100', activity: '1500', dev: '5000' },
-    { class: 'Nursery', kit: '2300', exam: '1800', tuition: '1800', admission: '16100', activity: '1500', dev: '5000' },
-    { class: 'UKG (KG)', kit: '2300', exam: '1800', tuition: '1700', admission: '16100', activity: '1500', dev: '5000' },
-    { class: 'Class 1', kit: '2300', exam: '2100', tuition: '1750', admission: '16600', activity: '2250', dev: '5500' },
-    { class: 'Class 2', kit: '2300', exam: '2100', tuition: '1750', admission: '16600', activity: '2250', dev: '5500' },
-    { class: 'Class 3', kit: '2300', exam: '2100', tuition: '1750', admission: '16600', activity: '2250', dev: '5500' },
-    { class: 'Class 4', kit: '2300', exam: '2100', tuition: '1750', admission: '16600', activity: '2250', dev: '5500' },
-    { class: 'Class 5', kit: '2300', exam: '2800', tuition: '1800', admission: '19100', activity: '2500', dev: '6000' },
-    { class: 'Class 6', kit: '2300', exam: '2800', tuition: '1800', admission: '19100', activity: '2500', dev: '6000' },
-    { class: 'Class 7', kit: '2300', exam: '2800', tuition: '1800', admission: '19100', activity: '2500', dev: '6000' },
-    { class: 'Class 8', kit: '2300', exam: '2800', tuition: '1800', admission: '19100', activity: '2500', dev: '6000' },
-    { class: 'Class 9', kit: '2300', exam: '2700', tuition: '2050', admission: '22100', activity: '3050', dev: '6000' },
-    { class: 'Class 10', kit: '2300', exam: '2700', tuition: '2050', admission: 'NA', activity: '3050', dev: '6000' },
-    { class: 'Class 11', kit: '2300', exam: '2900', tuition: '2300', admission: '23100', activity: '3600', dev: '7000' },
-    { class: 'Class 12', kit: '2300', exam: '2900', tuition: '2300', admission: 'NA', activity: '3600', dev: '7000' },
-  ];
+  // const detailedFees = [
+  //   { class: 'Pre Nursery', kit: '2300', exam: '1800', tuition: '1700', admission: '16100', activity: '1500', dev: '5000' },
+  //   { class: 'Nursery', kit: '2300', exam: '1800', tuition: '1800', admission: '16100', activity: '1500', dev: '5000' },
+  //   { class: 'UKG (KG)', kit: '2300', exam: '1800', tuition: '1700', admission: '16100', activity: '1500', dev: '5000' },
+  //   { class: 'Class 1', kit: '2300', exam: '2100', tuition: '1750', admission: '16600', activity: '2250', dev: '5500' },
+  //   { class: 'Class 2', kit: '2300', exam: '2100', tuition: '1750', admission: '16600', activity: '2250', dev: '5500' },
+  //   { class: 'Class 3', kit: '2300', exam: '2100', tuition: '1750', admission: '16600', activity: '2250', dev: '5500' },
+  //   { class: 'Class 4', kit: '2300', exam: '2100', tuition: '1750', admission: '16600', activity: '2250', dev: '5500' },
+  //   { class: 'Class 5', kit: '2300', exam: '2800', tuition: '1800', admission: '19100', activity: '2500', dev: '6000' },
+  //   { class: 'Class 6', kit: '2300', exam: '2800', tuition: '1800', admission: '19100', activity: '2500', dev: '6000' },
+  //   { class: 'Class 7', kit: '2300', exam: '2800', tuition: '1800', admission: '19100', activity: '2500', dev: '6000' },
+  //   { class: 'Class 8', kit: '2300', exam: '2800', tuition: '1800', admission: '19100', activity: '2500', dev: '6000' },
+  //   { class: 'Class 9', kit: '2300', exam: '2700', tuition: '2050', admission: '22100', activity: '3050', dev: '6000' },
+  //   { class: 'Class 10', kit: '2300', exam: '2700', tuition: '2050', admission: 'NA', activity: '3050', dev: '6000' },
+  //   { class: 'Class 11', kit: '2300', exam: '2900', tuition: '2300', admission: '23100', activity: '3600', dev: '7000' },
+  //   { class: 'Class 12', kit: '2300', exam: '2900', tuition: '2300', admission: 'NA', activity: '3600', dev: '7000' },
+  // ];
 
-  const summaryFees = [
-    { class: 'Pre Nursery', monthly: '1,825', yearly: '47,100' },
-    { class: 'Nursery', monthly: '1,825', yearly: '47,100' },
-    { class: 'UKG (KG)', monthly: '1,825', yearly: '47,100' },
-    { class: 'Class 1', monthly: '1,937', yearly: '49,750' },
-    { class: 'Class 2', monthly: '1,937', yearly: '49,750' },
-    { class: 'Class 3', monthly: '1,937', yearly: '49,750' },
-    { class: 'Class 4', monthly: '1,937', yearly: '49,750' },
-    { class: 'Class 5', monthly: '2,008', yearly: '54,300' },
-    { class: 'Class 6', monthly: '2,008', yearly: '54,300' },
-    { class: 'Class 7', monthly: '2,008', yearly: '54,300' },
-    { class: 'Class 8', monthly: '2,008', yearly: '54,300' },
-    { class: 'Class 9', monthly: '2,304', yearly: '60,750' },
-    { class: 'Class 10', monthly: '2,304', yearly: '38,650' },
-    { class: 'Class 11', monthly: '2,600', yearly: '66,500' },
-    { class: 'Class 12', monthly: '2,600', yearly: '43,400' },
-  ];
+  // const summaryFees = [
+  //   { class: 'Pre Nursery', monthly: '1,825', yearly: '47,100' },
+  //   { class: 'Nursery', monthly: '1,825', yearly: '47,100' },
+  //   { class: 'UKG (KG)', monthly: '1,825', yearly: '47,100' },
+  //   { class: 'Class 1', monthly: '1,937', yearly: '49,750' },
+  //   { class: 'Class 2', monthly: '1,937', yearly: '49,750' },
+  //   { class: 'Class 3', monthly: '1,937', yearly: '49,750' },
+  //   { class: 'Class 4', monthly: '1,937', yearly: '49,750' },
+  //   { class: 'Class 5', monthly: '2,008', yearly: '54,300' },
+  //   { class: 'Class 6', monthly: '2,008', yearly: '54,300' },
+  //   { class: 'Class 7', monthly: '2,008', yearly: '54,300' },
+  //   { class: 'Class 8', monthly: '2,008', yearly: '54,300' },
+  //   { class: 'Class 9', monthly: '2,304', yearly: '60,750' },
+  //   { class: 'Class 10', monthly: '2,304', yearly: '38,650' },
+  //   { class: 'Class 11', monthly: '2,600', yearly: '66,500' },
+  //   { class: 'Class 12', monthly: '2,600', yearly: '43,400' },
+  // ];
 
   const admissionSteps = [
     {
@@ -216,7 +216,7 @@ export default function AdmissionPage() {
             </div>
 
             {/* Detailed Fee Structure */}
-            <Card className="bg-card shadow-sm border overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-1000">
+            {/* <Card className="bg-card shadow-sm border overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-1000">
               <CardHeader className="flex flex-row items-center gap-3 border-b pb-4 bg-primary/5">
                 <BookOpen className="h-6 w-6 text-primary" />
                 <CardTitle className="font-headline">Detailed Fees Structure (Per Session)</CardTitle>
@@ -253,10 +253,10 @@ export default function AdmissionPage() {
                   </Table>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
 
             {/* Fee Summary */}
-            <Card className="bg-card shadow-sm border overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-1000">
+            {/* <Card className="bg-card shadow-sm border overflow-hidden animate-in fade-in slide-in-from-bottom-8 duration-1000">
               <CardHeader className="flex flex-row items-center gap-3 border-b pb-4 bg-secondary/5">
                 <Calculator className="h-6 w-6 text-secondary" />
                 <CardTitle className="font-headline">Total Fee Summary</CardTitle>
@@ -287,7 +287,7 @@ export default function AdmissionPage() {
               <p className="text-sm text-muted-foreground text-center">
                 <strong>Important Note:</strong> The fees listed above are for the academic session 2025-26. Fees are subject to revision by the school management. Detailed class-wise breakdowns and payment schedules are available at the school administrative office.
               </p>
-            </div>
+            </div> */}
 
           </div>
         </div>

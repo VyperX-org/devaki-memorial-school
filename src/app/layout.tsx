@@ -1,18 +1,16 @@
-
 import type {Metadata} from 'next';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import SocialBar from '@/components/SocialBar';
 import TopNoticeBar from '@/components/TopNoticeBar';
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider"
 import ScrollReveal from '@/components/ScrollReveal';
 import dynamic from 'next/dynamic';
+import LazyBar from '../components/SocialBar'
 
 // Lazy load heavy components
-const LazySocialBar = dynamic(() => import('@/components/SocialBar'), {
-  ssr: false,
+const LazySocialBar = dynamic(() => import('../components/SocialBar'), {
   loading: () => null
 });
 
@@ -37,7 +35,6 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
           rel="stylesheet"
           media="print"
-          onLoad="this.media='all'"
         />
         <noscript>
           <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
