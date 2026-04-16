@@ -1,13 +1,11 @@
 
-"use client";
-
 import Link from 'next/link';
 import { Bell } from 'lucide-react';
-import { NOTICES } from '@/lib/notices';
+import { listNotices } from '@/lib/notices-db';
 
-export default function TopNoticeBar() {
-  // Use titles from the shared notices data
-  const noticeTitles = NOTICES.map(n => n.title);
+export default async function TopNoticeBar() {
+  const notices = await listNotices(8);
+  const noticeTitles = notices.map((notice) => notice.title);
 
   return (
     <Link 

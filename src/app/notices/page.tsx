@@ -3,9 +3,11 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Bell, Calendar } from 'lucide-react';
-import { NOTICES } from '@/lib/notices';
+import { listNotices } from '@/lib/notices-db';
 
-export default function NoticeBoardPage() {
+export default async function NoticeBoardPage() {
+  const notices = await listNotices();
+
   return (
     <div className="bg-background min-h-screen">
       <section className="py-16 bg-primary text-primary-foreground text-center overflow-hidden">
@@ -27,12 +29,12 @@ export default function NoticeBoardPage() {
                   <h2 className="text-2xl font-headline font-bold">Latest Announcements</h2>
                 </div>
                 <Badge variant="outline" className="border-primary text-primary">
-                  Total Notices: {NOTICES.length}
+                  Total Notices: {notices.length}
                 </Badge>
               </div>
 
               <div className="space-y-6">
-                {NOTICES.map((notice, idx) => (
+                {notices.map((notice, idx) => (
                   <Card 
                     key={notice.id} 
                     className="bg-card border-none shadow-sm hover:shadow-md transition-all animate-in fade-in slide-in-from-bottom-4 fill-mode-both"
@@ -54,6 +56,13 @@ export default function NoticeBoardPage() {
                     </CardContent>
                   </Card>
                 ))}
+                {notices.length === 0 && (
+                  <Card className="bg-card border-dashed border-2">
+                    <CardContent className="p-6 text-muted-foreground">
+                      No notices published yet.
+                    </CardContent>
+                  </Card>
+                )}
               </div>
             </div>
 
