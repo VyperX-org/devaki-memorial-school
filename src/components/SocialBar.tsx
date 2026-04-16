@@ -8,7 +8,7 @@ export default function SocialBar() {
   const socials = [
     { icon: <Youtube className="h-5 w-5" />, name: 'YouTube', color: 'bg-[#FF0000]', href: 'https://youtube.com' },
     { icon: <Linkedin className="h-5 w-5" />, name: 'LinkedIn', color: 'bg-[#0077B5]', href: 'https://www.linkedin.com/school/devaki-memorial-school' },
-    { icon: <Instagram className="h-5 w-5" />, name: 'Instagram', color: 'bg-[#E1306C]', href: 'https://instagram.com' },
+    { icon: <Instagram className="h-5 w-5" />, name: 'Instagram', color: 'bg-[#E1306C]', href: 'https://instagram.com/devakischool.in' },
   ];
 
   return (

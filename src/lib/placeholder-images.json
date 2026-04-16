@@ -3,31 +3,31 @@
     {
       "id": "school-aerial",
       "description": "Aerial view of the school campus",
-      "imageUrl": "https://picsum.photos/seed/dms1/1200/600",
+      "imageUrl": "https://i.ibb.co/bRHXBLXP/C0427-frame-at-0m0s-jpg.jpg",
       "imageHint": "school campus aerial"
     },
     {
       "id": "chairperson",
       "description": "Portrait of the school chairperson",
-      "imageUrl": "https://picsum.photos/seed/dms2/400/400",
+      "imageUrl": "https://i.ibb.co/7x5z39qy/founder.jpg",
       "imageHint": "professional portrait"
     },
     {
       "id": "principal",
       "description": "Portrait of the school principal",
-      "imageUrl": "https://picsum.photos/seed/dms3/400/400",
+      "imageUrl": "https://i.ibb.co/HLCKkK2g/HEADmam-jpg.jpg",
       "imageHint": "professional educator"
     },
     {
       "id": "campus-gallery",
       "description": "School campus facilities",
-      "imageUrl": "https://picsum.photos/seed/dms4/600/400",
+      "imageUrl": "https://i.ibb.co/rfFMZPS4/C0428-frame-at-0m12s-jpg.jpg",
       "imageHint": "school building"
     },
     {
       "id": "lab-gallery",
       "description": "Science laboratory",
-      "imageUrl": "https://picsum.photos/seed/dms5/600/400",
+      "imageUrl": "https://i.ibb.co/fztGSC47/C0523-frame-at-0m8s-jpg.jpg",
       "imageHint": "science laboratory"
     },
     {
@@ -45,26 +45,56 @@
     {
       "id": "campus-1",
       "description": "Main Entrance",
-      "imageUrl": "https://picsum.photos/seed/c1/800/600",
+      "imageUrl": "https://i.ibb.co/5xYL8vL6/C0427-frame-at-0m0s-jpg.jpg",
       "imageHint": "school gate"
     },
     {
       "id": "campus-2",
-      "description": "Playground",
-      "imageUrl": "https://picsum.photos/seed/c2/800/600",
-      "imageHint": "playground"
+      "description": "School Entrance",
+      "imageUrl": "https://i.ibb.co/bjV1CL5w/C0431-frame-at-0m6s-jpg.jpg",
+      "imageHint": "school entrance"
     },
     {
       "id": "campus-3",
-      "description": "Library",
-      "imageUrl": "https://picsum.photos/seed/c3/800/600",
-      "imageHint": "school library"
+      "description": "Hallway",
+      "imageUrl": "https://i.ibb.co/6JZ4YVmX/C0451-frame-at-0m2s-jpg.jpg",
+      "imageHint": "school hallway"
     },
     {
       "id": "campus-4",
-      "description": "Auditorium",
-      "imageUrl": "https://picsum.photos/seed/c4/800/600",
-      "imageHint": "auditorium"
+      "description": "Prayer Assembly Area",
+      "imageUrl": "https://i.ibb.co/ns2TsBLG/C0406-frame-at-0m0s-jpg.jpg",
+      "imageHint": "assembly area"
+    },
+    {
+      "id": "campus-5",
+      "description": "Classroom View 1",
+      "imageUrl": "https://i.ibb.co/xSB2MSzS/C0444-frame-at-0m15s-jpg.jpg",
+      "imageHint": "school classrooms"
+    },
+    {
+      "id": "campus-6",
+      "description": "Classroom View 2",
+      "imageUrl": "https://i.ibb.co/HL7RTc0Q/C0501-frame-at-0m2s-jpg.jpg",
+      "imageHint": "school classrooms"
+    },
+    {
+      "id": "campus-7",
+      "description": "Classroom View 3",
+      "imageUrl": "https://i.ibb.co/qL3KrGrG/kids-jpg.jpg",
+      "imageHint": "school classrooms"
+    },
+    {
+      "id": "campus-8",
+      "description": "Teachers and Students 1",
+      "imageUrl": "https://i.ibb.co/mkGG4kP/C0518-frame-at-0m2s-jpg.jpg",
+      "imageHint": "school teachers and students"
+    },
+    {
+      "id": "campus-9",
+      "description": "Teachers and Students 2",
+      "imageUrl": "https://i.ibb.co/sJgc720j/C0518-frame-at-0m14s-jpg.jpg",
+      "imageHint": "school teachers and students"
     },
     {
       "id": "lab-1",
@@ -79,9 +109,27 @@
       "imageHint": "chemistry laboratory"
     },
     {
-      "id": "lab-3",
-      "description": "Biology Lab",
-      "imageUrl": "https://picsum.photos/seed/l3/800/600",
+      "id": "lab-3.1",
+      "description": "Biology Lab Picture 1",
+      "imageUrl": "https://i.ibb.co/fztGSC47/C0523-frame-at-0m8s-jpg.jpg",
+      "imageHint": "biology laboratory"
+    },
+    {
+      "id": "lab-3.2",
+      "description": "Biology Lab Picture 2",
+      "imageUrl": "https://i.ibb.co/d0VYVSZC/C0533-frame-at-0m2s-jpg.jpg",
+      "imageHint": "biology laboratory"
+    },
+    {
+      "id": "lab-3.3",
+      "description": "Biology Lab Picture 3",
+      "imageUrl": "https://i.ibb.co/Y4P6ggrj/C0528-frame-at-0m1s-jpg.jpg",
+      "imageHint": "biology laboratory"
+    },
+     {
+      "id": "lab-3.4",
+      "description": "Biology Lab Picture 4",
+      "imageUrl": "https://i.ibb.co/zT0p7NgD/C0530-frame-at-0m1s-jpg.jpg",
       "imageHint": "biology laboratory"
     },
     {

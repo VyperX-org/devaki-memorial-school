@@ -40,7 +40,7 @@ export default function Footer() {
   const socialLinks = [
     { platform: 'youtube', icon: <Youtube className="h-5 w-5" />, href: 'https://youtube.com' },
     { platform: 'linkedin', icon: <Linkedin className="h-5 w-5" />, href: 'https://www.linkedin.com/school/devaki-memorial-school' },
-    { platform: 'instagram', icon: <Instagram className="h-5 w-5" />, href: 'https://instagram.com' },
+    { platform: 'instagram', icon: <Instagram className="h-5 w-5" />, href: 'https://instagram.com/devakischool.in' },
   ];
 
   return (

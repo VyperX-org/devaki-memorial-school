@@ -24,7 +24,7 @@ const navLinks = [
 const socialLinks = [
   { platform: 'youtube', icon: <Youtube className="h-5 w-5" />, href: 'https://youtube.com' },
   { platform: 'linkedin', icon: <Linkedin className="h-5 w-5" />, href: 'https://www.linkedin.com/school/devaki-memorial-school' },
-  { platform: 'instagram', icon: <Instagram className="h-5 w-5" />, href: 'https://instagram.com' },
+  { platform: 'instagram', icon: <Instagram className="h-5 w-5" />, href: 'https://instagram.com/devakischool.in' },
 ];
 
 export default function Navbar() {
@@ -32,7 +32,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 shadow-sm border-b">
+    <nav className="sticky top-0 z-50 bg-background shadow-sm border-b">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-24">
           <Link href="/" className="flex items-center gap-3 group shrink-0">

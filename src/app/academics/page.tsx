@@ -76,10 +76,10 @@ export default function AcademicsPage() {
                 </div>
                 <div className="grid grid-cols-2 gap-4 animate-in fade-in slide-in-from-right-8 duration-1000">
                   <div className="aspect-square bg-muted rounded-2xl overflow-hidden relative shadow-md">
-                    <img src="https://picsum.photos/seed/sports1/400/400" alt="Sports" className="object-cover w-full h-full hover:scale-110 transition-transform duration-700" />
+                    <img src="https://i.ibb.co/jYPWqyH/image.png" alt="Sports" className="object-cover w-full h-full hover:scale-110 transition-transform duration-700" />
                   </div>
                   <div className="aspect-square bg-muted rounded-2xl overflow-hidden relative translate-y-8 shadow-md">
-                    <img src="https://picsum.photos/seed/sports2/400/400" alt="Sports" className="object-cover w-full h-full hover:scale-110 transition-transform duration-700" />
+                    <img src="https://i.ibb.co/ccrt9K2K/image.png" alt="Sports" className="object-cover w-full h-full hover:scale-110 transition-transform duration-700" />
                   </div>
                 </div>
               </div>
