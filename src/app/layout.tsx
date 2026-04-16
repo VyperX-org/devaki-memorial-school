@@ -19,6 +19,33 @@ export const metadata: Metadata = {
   description: 'Devaki Memorial School, established in 2002 in Rajarhat, Kolkata, is a CISCE affiliated institution operated by the Kajormal Ji Agarwal Charitable Trust, focusing on academic excellence and moral values.',
   keywords: 'Devaki Memorial School, School in Rajarhat, Kolkata, DMS, Schools, India, CISCE, ICSE Schools',
   authors: [{ name: 'VyperX' }],
+  icons: {
+    icon: '/images/logo.jpg',
+    shortcut: '/images/logo.jpg',
+    apple: '/images/logo.jpg',
+  },
+  openGraph: {
+    title: 'Devaki Memorial School | CISCE Affiliated',
+    description:
+      'Devaki Memorial School, established in 2002 in Rajarhat, Kolkata, is a CISCE affiliated institution focused on academic excellence and moral values.',
+    type: 'website',
+    siteName: 'Devaki Memorial School',
+    images: [
+      {
+        url: '/images/logo.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Devaki Memorial School Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Devaki Memorial School | CISCE Affiliated',
+    description:
+      'Devaki Memorial School, established in 2002 in Rajarhat, Kolkata, is a CISCE affiliated institution focused on academic excellence and moral values.',
+    images: ['/images/logo.jpg'],
+  },
 };
 
 export default function RootLayout({
