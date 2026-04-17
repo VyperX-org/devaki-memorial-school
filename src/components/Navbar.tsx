@@ -17,7 +17,7 @@ const navLinks = [
   { name: 'ACADEMICS', href: '/academics' },
   { name: 'GALLERY', href: '/gallery' },
   { name: 'NOTICES', href: '/notices' },
-  { name: 'ACHIEVEMENTS', href: '/achievements' },
+  // { name: 'ACHIEVEMENTS', href: '/achievements' },
   { name: 'CONTACT', href: '/contact' },
 ];
 
@@ -44,10 +44,10 @@ export default function Navbar() {
                 className="object-cover"
               />
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col lg:flex-row lg:gap-1">
               <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight">Devaki</span>
-              <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight -mt-1 sm:-mt-2">Memorial</span>
-              <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight -mt-1 sm:-mt-2">School</span>
+              <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight -mt-1 sm:-mt-2 lg:mt-0">Memorial</span>
+              <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight -mt-1 sm:-mt-2 lg:mt-0">School</span>
             </div>
           </Link>
 

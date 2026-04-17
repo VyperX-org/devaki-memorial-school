@@ -51,10 +51,10 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start space-y-4">
             <div className="flex items-center gap-2">
               <Image src="/images/logo.jpg" alt="DMS Logo" width={40} height={40} className="rounded-full" />
-              <span className="text-lg font-headline font-bold leading-tight">D.M.S.</span>
+              <span className="text-lg font-headline font-bold leading-tight">विद्ययामृतभक्षते</span>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed max-w-sm">
-              Devaki Memorial School, established in 2002, offers quality CISCE-affiliated education from Nursery to Class XII, focusing on academic excellence, character building, and holistic development in a nurturing, well-equipped environment.
+              Devaki Memorial School, established in 2002, offers quality CISCE-affiliated (I.C.S.E & I.S.C) education from Nursery to Class XII, focusing on academic excellence, character building, and holistic development in a nurturing, well-equipped environment.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
