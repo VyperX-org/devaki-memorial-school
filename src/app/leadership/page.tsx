@@ -1,5 +1,5 @@
 
-import Image from 'next/image';
+import Image from '@/components/SafeImage';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent } from '@/components/ui/card';
 import { Quote } from 'lucide-react';

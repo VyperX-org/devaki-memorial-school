@@ -55,9 +55,15 @@
       "imageHint": "school entrance"
     },
     {
-      "id": "campus-3",
-      "description": "Hallway",
+      "id": "campus-3.1",
+      "description": "Hallway View 1",
       "imageUrl": "https://i.ibb.co/6JZ4YVmX/C0451-frame-at-0m2s-jpg.jpg",
+      "imageHint": "school hallway"
+    },
+    {
+      "id": "campus-3.2",
+      "description": "Hallway View 2",
+      "imageUrl": "https://i.ibb.co/gbMB5P9b/DSC-3659.png",
       "imageHint": "school hallway"
     },
     {
@@ -97,21 +103,63 @@
       "imageHint": "school teachers and students"
     },
     {
-      "id": "lab-1",
-      "description": "Physics Lab",
-      "imageUrl": "https://picsum.photos/seed/l1/800/600",
+      "id": "campus-10",
+      "description": "Teachers and Students 3",
+      "imageUrl": "https://i.ibb.co/8nXH7Pxb/DSC-3733.png",
+      "imageHint": "school teachers and students"
+    },
+    {
+      "id": "campus-11",
+      "description": "Teachers and Students 4",
+      "imageUrl": "https://i.ibb.co/tMNpFB5L/DSC-3677.png",
+      "imageHint": "school teachers and students"
+    },
+    {
+      "id": "campus-12",
+      "description": "Teachers and Students 5",
+      "imageUrl": "https://i.ibb.co/4nc1h3Xy/DSC-3722.png",
+      "imageHint": "school teachers and students"
+    },
+    {
+      "id": "campus-13",
+      "description": "Teachers and Students 6",
+      "imageUrl": "https://i.ibb.co/23JRLtx9/DSC-3749.png",
+      "imageHint": "school teachers and students"
+    },
+    {
+      "id": "campus-14",
+      "description": "Teachers and Students 7",
+      "imageUrl": "https://i.ibb.co/8LmW8gXt/DSC-3716.png",
+      "imageHint": "school teachers and students"
+    },
+    {
+      "id": "lab-1.1",
+      "description": "Physics Lab 1",
+      "imageUrl": "https://i.ibb.co/ZRgJkNqR/DSC-3834.png",
       "imageHint": "physics laboratory"
     },
     {
-      "id": "lab-2",
-      "description": "Chemistry Lab",
-      "imageUrl": "https://picsum.photos/seed/l2/800/600",
+      "id": "lab-1.2",
+      "description": "Physics Lab 2",
+      "imageUrl": "https://i.ibb.co/yFpgy5XW/DSC-3806.png",
+      "imageHint": "physics laboratory"
+    },
+    {
+      "id": "lab-2.1",
+      "description": "Chemistry Lab 1",
+      "imageUrl": "https://i.ibb.co/Kp5wH2LD/DSC-3772.png",
+      "imageHint": "chemistry laboratory"
+    },
+    {
+      "id": "lab-2.2",
+      "description": "Chemistry Lab 2",
+      "imageUrl": "https://i.ibb.co/svqZJpGW/DSC-3794.png",
       "imageHint": "chemistry laboratory"
     },
     {
       "id": "lab-3.1",
       "description": "Biology Lab Picture 1",
-      "imageUrl": "https://i.ibb.co/fztGSC47/C0523-frame-at-0m8s-jpg.jpg",
+      "imageUrl": "https://i.ibb.co/wVx0XFn/DSC-3757.png",
       "imageHint": "biology laboratory"
     },
     {
@@ -126,10 +174,16 @@
       "imageUrl": "https://i.ibb.co/Y4P6ggrj/C0528-frame-at-0m1s-jpg.jpg",
       "imageHint": "biology laboratory"
     },
-     {
+    {
       "id": "lab-3.4",
       "description": "Biology Lab Picture 4",
       "imageUrl": "https://i.ibb.co/zT0p7NgD/C0530-frame-at-0m1s-jpg.jpg",
+      "imageHint": "biology laboratory"
+    },
+    {
+      "id": "lab-3.5",
+      "description": "Biology Lab Picture 5",
+      "imageUrl": "https://i.ibb.co/gZmJCyCZ/select-v.png",
       "imageHint": "biology laboratory"
     },
     {

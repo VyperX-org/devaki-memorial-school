@@ -1,5 +1,5 @@
 
-import Image from 'next/image';
+import Image from '@/components/SafeImage';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
