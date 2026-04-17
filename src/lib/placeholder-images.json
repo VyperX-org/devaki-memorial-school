@@ -33,7 +33,7 @@
     {
       "id": "event-gallery",
       "description": "Annual school sports event",
-      "imageUrl": "https://picsum.photos/seed/dms6/600/400",
+      "imageUrl": "https://i.ibb.co/gCy4N4P/Whats-App-Image-2026-04-17-at-20-13-27-1.jpg",
       "imageHint": "sports stadium"
     },
     {
@@ -157,6 +157,12 @@
       "imageHint": "chemistry laboratory"
     },
     {
+      "id": "lab-2.3",
+      "description": "Chemistry Lab 3",
+      "imageUrl": "https://i.ibb.co/YVKdkCt/Whats-App-Image-2026-04-17-at-20-13-26-1.jpg",
+      "imageHint": "chemistry laboratory"
+    },
+    {
       "id": "lab-3.1",
       "description": "Biology Lab Picture 1",
       "imageUrl": "https://i.ibb.co/wVx0XFn/DSC-3757.png",
@@ -188,48 +194,54 @@
     },
     {
       "id": "lab-4",
+      "description": "Teachers and Students (In Laboratory Attire)",
+      "imageUrl": "https://i.ibb.co/N65x3QHP/Whats-App-Image-2026-04-17-at-20-13-26.jpg",
+      "imageHint": "computer room"
+    },
+    {
+      "id": "lab-5",
       "description": "Computer Lab",
       "imageUrl": "https://picsum.photos/seed/l4/800/600",
       "imageHint": "computer room"
     },
     {
       "id": "event-1",
-      "description": "Annual Function",
-      "imageUrl": "https://picsum.photos/seed/e1/800/600",
-      "imageHint": "school stage"
+      "description": "Annual Sports",
+      "imageUrl": "https://i.ibb.co/gCy4N4P/Whats-App-Image-2026-04-17-at-20-13-27-1.jpg",
+      "imageHint": "school sports event"
     },
     {
       "id": "event-2",
-      "description": "Sports Meet",
-      "imageUrl": "https://picsum.photos/seed/e2/800/600",
-      "imageHint": "running track"
-    },
-    {
-      "id": "event-3",
-      "description": "Science Exhibition",
-      "imageUrl": "https://picsum.photos/seed/e3/800/600",
-      "imageHint": "science fair"
-    },
-    {
-      "id": "event-4",
-      "description": "Art Workshop",
-      "imageUrl": "https://picsum.photos/seed/e4/800/600",
-      "imageHint": "art classroom"
+      "description": "Yoga Event",
+      "imageUrl": "https://i.ibb.co/zVWXrFM5/Whats-App-Image-2026-04-17-at-20-13-27.jpg",
+      "imageHint": "yoga session"
     },
     {
       "id": "year-2023-1",
-      "description": "Graduation Ceremony 2023",
-      "imageUrl": "https://picsum.photos/seed/y23-1/800/600",
-      "imageHint": "graduation caps"
+      "description": "Annual Sports 2023",
+      "imageUrl": "https://i.ibb.co/gCy4N4P/Whats-App-Image-2026-04-17-at-20-13-27-1.jpg",
+      "imageHint": "school sports event"
     },
     {
       "id": "year-2023-2",
-      "description": "Class of 2023 Farewell",
-      "imageUrl": "https://picsum.photos/seed/y23-2/800/600",
-      "imageHint": "school farewell"
+      "description": "Yoga Day 2023",
+      "imageUrl": "https://i.ibb.co/zVWXrFM5/Whats-App-Image-2026-04-17-at-20-13-27.jpg",
+      "imageHint": "yoga session"
     },
     {
-      "id": "year-2022-1",
+      "id": "year-2023-3",
+      "description": "Class 10 in Chemistry Lab 2023",
+      "imageUrl": "https://i.ibb.co/YVKdkCt/Whats-App-Image-2026-04-17-at-20-13-26-1.jpg",
+      "imageHint": "class 10 2023"
+    },
+    {
+      "id": "year-2023-4",
+      "description": "Class 10 Science 2023",
+      "imageUrl": "https://i.ibb.co/N65x3QHP/Whats-App-Image-2026-04-17-at-20-13-26.jpg",
+      "imageHint": "class 10 2023"
+    },
+    {
+      "id": "year-2022-5",
       "description": "Class of 2022 Group Photo",
       "imageUrl": "https://picsum.photos/seed/y22-1/800/600",
       "imageHint": "students group"
