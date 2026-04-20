@@ -22,7 +22,7 @@ export default function Home() {
 
   const importantLinks = [
     { title: 'Admissions', icon: <FileText />, href: '/admission' },
-    { title: 'Fees Payment', icon: <CreditCard />, href: '#' },
+    { title: 'Fees Portal', icon: <CreditCard />, href: '/fees-portal' },
     { title: 'Notice Board', icon: <Bell />, href: '/notices' },
     { title: 'Photo Gallery', icon: <ImageIcon />, href: '/gallery' },
   ];

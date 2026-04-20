@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button';
 import { Bell, Calendar } from 'lucide-react';
 import { listNotices } from '@/lib/notices-db';
 
+export const revalidate = 30;
+
 export default async function NoticeBoardPage() {
   const notices = await listNotices();
 

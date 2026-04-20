@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 import { createNotice, listNotices } from '@/lib/notices-db';
 import { NOTICE_CATEGORIES } from '@/lib/notice-types';
@@ -23,7 +24,14 @@ function isAuthorized(request: NextRequest): boolean {
 export async function GET() {
   try {
     const notices = await listNotices();
-    return NextResponse.json({ notices });
+    return NextResponse.json(
+      { notices },
+      {
+        headers: {
+          'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+        },
+      }
+    );
   } catch (error) {
     return NextResponse.json(
       { error: error instanceof Error ? error.message : 'Failed to load notices' },
@@ -46,6 +54,7 @@ export async function POST(request: NextRequest) {
 
   try {
     const notice = await createNotice(parsed.data);
+    revalidatePath('/notices');
     return NextResponse.json({ notice }, { status: 201 });
   } catch (error) {
     return NextResponse.json(

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 import { deleteNotice, updateNotice } from '@/lib/notices-db';
 import { NOTICE_CATEGORIES } from '@/lib/notice-types';
@@ -50,6 +51,7 @@ export async function PUT(
       return NextResponse.json({ error: 'Notice not found' }, { status: 404 });
     }
 
+    revalidatePath('/notices');
     return NextResponse.json({ notice });
   } catch (error) {
     return NextResponse.json(
@@ -78,6 +80,7 @@ export async function DELETE(
       return NextResponse.json({ error: 'Notice not found' }, { status: 404 });
     }
 
+    revalidatePath('/notices');
     return NextResponse.json({ ok: true });
   } catch (error) {
     return NextResponse.json(

@@ -1,5 +1,6 @@
 
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 import { 
   Table, 
   TableBody, 
@@ -121,8 +122,8 @@ export default function AdmissionPage() {
                   We invite curious minds and dedicated students to explore their potential. Apply today to secure a place in our nurturing academic environment.
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
-                  <Button size="lg" className="bg-primary hover:bg-primary/90 transition-all duration-300 transform hover:scale-105">
-                    Application Portal
+                  <Button size="lg" asChild className="bg-primary hover:bg-primary/90 transition-all duration-300 transform hover:scale-105">
+                    <Link href="/application-form">Application Portal</Link>
                   </Button>
                   <Button size="lg" variant="outline" asChild className="border-primary text-primary hover:bg-primary/5 flex items-center gap-2 transition-all duration-300 transform hover:scale-105">
                     <a href="/docs/prospectus-2026.pdf" target="_blank" rel="noopener noreferrer">
