@@ -28,6 +28,7 @@ export default function LeadershipPage() {
                   src={chairImg?.imageUrl || ''}
                   alt="Mr. K.C.Agrawal"
                   fill
+                  sizes="(min-width: 768px) 30vw, 100vw"
                   className="object-cover"
                   data-ai-hint="professional portrait"
                 />
@@ -72,6 +73,7 @@ export default function LeadershipPage() {
                   src={principalImg?.imageUrl || ''}
                   alt="Mrs. Sipra Niyogi"
                   fill
+                  sizes="(min-width: 768px) 30vw, 100vw"
                   className="object-cover"
                   data-ai-hint="professional educator"
                 />

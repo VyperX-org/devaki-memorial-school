@@ -41,13 +41,19 @@ export default function Navbar() {
                 src="/images/logo.jpg" 
                 alt="Devaki Memorial School Logo" 
                 fill
+                sizes="(min-width: 640px) 64px, 56px"
                 className="object-cover"
               />
             </div>
-            <div className="flex flex-col lg:flex-row lg:gap-1">
-              <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight">Devaki</span>
-              <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight -mt-1 sm:-mt-2 lg:mt-0">Memorial</span>
-              <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight -mt-1 sm:-mt-2 lg:mt-0">School</span>
+            <div className="flex flex-col">
+              <div className="flex flex-col lg:flex-row lg:gap-1">
+                <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight">Devaki</span>
+                <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight -mt-1 sm:-mt-2 lg:mt-0">Memorial</span>
+                <span className="text-lg sm:text-xl font-headline font-bold text-secondary tracking-tighter uppercase leading-tight -mt-1 sm:-mt-2 lg:mt-0">School</span>
+              </div>
+              <span className="text-[10px] sm:text-xs font-semibold text-muted-foreground tracking-wide uppercase leading-tight">
+                Affiliated to ICSE &amp; ISC
+              </span>
             </div>
           </Link>
 

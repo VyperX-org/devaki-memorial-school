@@ -147,6 +147,7 @@ export default function AboutPage() {
                       src={principalImg?.imageUrl || ''}
                       alt="Principal"
                       fill
+                      sizes="(min-width: 1024px) 30vw, 100vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       data-ai-hint="professional educator"
                     />

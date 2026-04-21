@@ -35,6 +35,7 @@ export default function Home() {
           src={heroImg?.imageUrl || ''}
           alt={heroImg?.description || 'School Aerial'}
           fill
+          sizes="100vw"
           className="object-cover"
           priority
           data-ai-hint="school campus aerial"
@@ -139,6 +140,7 @@ export default function Home() {
                 src={chairImg?.imageUrl || ''}
                 alt="Mr. K.C.Agrawal"
                 fill
+                sizes="256px"
                 className="object-cover"
                 data-ai-hint="professional portrait"
               />
