@@ -78,7 +78,8 @@ export default function Footer() {
             <ul className="space-y-3">
               <li><Link href="/admission" className="hover:text-secondary transition-colors">Admission Policy</Link></li>
               <li><Link href="/notices" className="hover:text-secondary transition-colors">Notice Board</Link></li>
-              <li><Link href="/academics" className="hover:text-secondary transition-colors">Academic Calendar</Link></li>
+              <li><Link href="/academics" className="hover:text-secondary transition-colors">Academics</Link></li>
+              <li><Link href="/faculty" className="hover:text-secondary transition-colors">Faculty</Link></li>
               <li><Link href="/careers" className="hover:text-secondary transition-colors">Careers</Link></li>
             </ul>
           </div>

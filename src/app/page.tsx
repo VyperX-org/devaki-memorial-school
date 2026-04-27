@@ -3,6 +3,7 @@ import Image from '@/components/SafeImage';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { HomeHeroCarousel } from '@/components/HomeHeroCarousel';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { cn } from '@/lib/utils';
 import { 
@@ -17,7 +18,6 @@ import {
 } from 'lucide-react';
 
 export default function Home() {
-  const heroImg = PlaceHolderImages.find(img => img.id === 'school-aerial');
   const chairImg = PlaceHolderImages.find(img => img.id === 'chairperson');
 
   const importantLinks = [
@@ -31,15 +31,7 @@ export default function Home() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative min-h-[600px] md:min-h-[500px] h-[80vh] md:h-[60vh] w-full overflow-hidden">
-        <Image
-          src={heroImg?.imageUrl || ''}
-          alt={heroImg?.description || 'School Aerial'}
-          fill
-          sizes="100vw"
-          className="object-cover"
-          priority
-          data-ai-hint="school campus aerial"
-        />
+        <HomeHeroCarousel />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-center p-4 md:p-6">
           <div className="max-w-4xl space-y-6 md:space-y-8 animate-fade-in-up">
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-headline font-bold text-white leading-tight">

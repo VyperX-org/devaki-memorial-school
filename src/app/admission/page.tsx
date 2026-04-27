@@ -114,7 +114,7 @@ export default function AdmissionPage() {
             {/* Top Action Card */}
             <Card className="bg-card border-primary/10 shadow-lg overflow-hidden animate-in fade-in zoom-in-95 duration-1000">
               <div className="bg-secondary p-4 text-secondary-foreground text-center font-bold">
-                Online Admissions Open for the Session 2025-2026
+                Online Admissions Open for the Session {new Date().getFullYear()}-{new Date().getFullYear() + 1}
               </div>
               <CardContent className="p-8 md:p-12 text-center space-y-6">
                 <h2 className="text-3xl font-headline font-bold text-primary">Nurturing Future Leaders</h2>

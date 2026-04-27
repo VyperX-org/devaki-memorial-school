@@ -1,0 +1,114 @@
+{
+  "faculty": [
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "position": "Principal",
+      "department": "Administration",
+      "qualification": "Ph.D. in Education",
+      "experience": "20 years",
+      "imageUrl": "https://i.ibb.co/RTw7VQzp/IMG-20260417-WA0002.jpg",
+      "email": "john.smith@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    },
+    {
+      "id": 2,
+      "name": "Ms. Sarah Johnson",
+      "position": "Vice Principal",
+      "department": "Administration",
+      "qualification": "M.A. in English",
+      "experience": "15 years",
+      "imageUrl": "https://i.ibb.co/7x5z39qy/founder.jpg",
+      "email": "sarah.johnson@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    },
+    {
+      "id": 3,
+      "name": "Mr. Rajesh Kumar",
+      "position": "Head of Science",
+      "department": "Science",
+      "qualification": "M.Sc. Physics, B.Ed",
+      "experience": "12 years",
+      "imageUrl": "https://i.ibb.co/bRHXBLXP/C0427-frame-at-0m0s-jpg.jpg",
+      "email": "rajesh.kumar@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Priya Sharma",
+      "position": "Head of Mathematics",
+      "department": "Mathematics",
+      "qualification": "Ph.D. in Mathematics",
+      "experience": "10 years",
+      "imageUrl": "https://i.ibb.co/rfFMZPS4/C0428-frame-at-0m12s-jpg.jpg",
+      "email": "priya.sharma@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    },
+    {
+      "id": 5,
+      "name": "Mr. Amit Patel",
+      "position": "Head of English",
+      "department": "English",
+      "qualification": "M.A. in English Literature",
+      "experience": "8 years",
+      "imageUrl": "https://i.ibb.co/fztGSC47/C0523-frame-at-0m8s-jpg.jpg",
+      "email": "amit.patel@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    },
+    {
+      "id": 6,
+      "name": "Ms. Neha Gupta",
+      "position": "Head of Commerce",
+      "department": "Commerce",
+      "qualification": "M.Com, B.Ed",
+      "experience": "7 years",
+      "imageUrl": "https://i.ibb.co/bRHXBLXP/C0427-frame-at-0m0s-jpg.jpg",
+      "email": "neha.gupta@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    },
+    {
+      "id": 7,
+      "name": "Mr. Vikram Singh",
+      "position": "Sports Director",
+      "department": "Physical Education",
+      "qualification": "B.Ed in Physical Education",
+      "experience": "6 years",
+      "imageUrl": "https://i.ibb.co/RTw7VQzp/IMG-20260417-WA0002.jpg",
+      "email": "vikram.singh@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    },
+    {
+      "id": 8,
+      "name": "Ms. Anjali Menon",
+      "position": "Art Teacher",
+      "department": "Arts",
+      "qualification": "M.A. in Fine Arts",
+      "experience": "5 years",
+      "imageUrl": "https://i.ibb.co/7x5z39qy/founder.jpg",
+      "email": "anjali.menon@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    },
+    {
+      "id": 9,
+      "name": "Mr. Arjun Das",
+      "position": "Computer Science Head",
+      "department": "Computer Science",
+      "qualification": "M.Tech in CS",
+      "experience": "9 years",
+      "imageUrl": "https://i.ibb.co/rfFMZPS4/C0428-frame-at-0m12s-jpg.jpg",
+      "email": "arjun.das@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    },
+    {
+      "id": 10,
+      "name": "Ms. Divya Nair",
+      "position": "Music Teacher",
+      "department": "Performing Arts",
+      "qualification": "M.A. in Music",
+      "experience": "4 years",
+      "imageUrl": "https://i.ibb.co/fztGSC47/C0523-frame-at-0m8s-jpg.jpg",
+      "email": "divya.nair@school.edu",
+      "phone": "+91-XXXXXXXXXX"
+    }
+  ]
+}
