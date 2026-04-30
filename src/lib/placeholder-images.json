@@ -206,15 +206,45 @@
     },
     {
       "id": "event-1",
-      "description": "Annual Sports",
-      "imageUrl": "https://i.ibb.co/gCy4N4P/Whats-App-Image-2026-04-17-at-20-13-27-1.jpg",
+      "description": "Annual Sports 2025",
+      "imageUrl": "https://i.ibb.co/zW9VnC7F/1777542324656-jpg.jpg",
       "imageHint": "school sports event"
-    },
+    },    
     {
       "id": "event-2",
-      "description": "Yoga Event",
-      "imageUrl": "https://i.ibb.co/zVWXrFM5/Whats-App-Image-2026-04-17-at-20-13-27.jpg",
-      "imageHint": "yoga session"
+      "description": "Senior Basketball School Team (Girls)",
+      "imageUrl": "https://i.ibb.co/HDJnWBW9/1777543206885-jpg.jpg",
+      "imageHint": "basketball game"
+    },
+    {
+      "id": "event-3",
+      "description": "Senior Cricket School Team (Boys)",
+      "imageUrl": "https://i.ibb.co/VpvwNWPh/1777542401623-jpg.jpg",
+      "imageHint": "cricket game"
+    },
+    {
+      "id": "event-4",
+      "description": "Shotokan Karate-Do Championships 2025",
+      "imageUrl": "https://i.ibb.co/21kv49Mm/1777542918140-jpg.jpg",
+      "imageHint": "karate championship"
+    },
+    {
+      "id": "event-5",
+      "description": "Junior Race Team (Techno Olympica 2025)",
+      "imageUrl": "https://i.ibb.co/Txn75JJp/1777541983221-jpg.jpg",
+      "imageHint": "race team"
+    },
+    {
+      "id": "event-6",
+      "description": "Cricket Practice (Techno Olympica 2025)",
+      "imageUrl": "https://i.ibb.co/SX9pXzm2/1777542191130-jpg.jpg",
+      "imageHint": "cricket practice"
+    },
+    {
+      "id": "event-7",
+      "description": "Annual Sports 2023",
+      "imageUrl": "https://i.ibb.co/gCy4N4P/Whats-App-Image-2026-04-17-at-20-13-27-1.jpg",
+      "imageHint": "school sports event"
     },
     {
       "id": "year-2023-1",

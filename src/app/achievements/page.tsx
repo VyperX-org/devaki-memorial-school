@@ -36,7 +36,9 @@ export default function AchievementsPage() {
 
   return (
     <div className="bg-background min-h-screen pb-20">
-      {/* Header */}
+      
+    {/*
+      // Header
       <section className="py-16 bg-primary text-primary-foreground text-center overflow-hidden">
         <div className="container mx-auto px-4 animate-in fade-in slide-in-from-top-8 duration-1000">
           <div className="flex justify-center mb-4">
@@ -49,7 +51,7 @@ export default function AchievementsPage() {
         </div>
       </section>
 
-      {/* Highlights Grid */}
+      // Highlights Grid
       <section className="py-20 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="space-y-24">
@@ -92,6 +94,8 @@ export default function AchievementsPage() {
           </div>
         </div>
       </section>
+
+      */}
 
       {/* Closing Quote */}
       <section className="py-20 bg-primary/5 overflow-hidden">

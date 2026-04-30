@@ -76,9 +76,11 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start">
             <h4 className="text-lg font-bold mb-6 border-b border-primary-foreground/20 pb-2 w-full md:w-auto">Important Links</h4>
             <ul className="space-y-3">
+              
+              <li><Link href="/academic-resources" className="hover:text-secondary transition-colors">Academic Resources</Link></li>
               <li><Link href="/admission" className="hover:text-secondary transition-colors">Admission Policy</Link></li>
+              <li><Link href="/achievements" className="hover:text-secondary transition-colors">Achievements</Link></li>
               <li><Link href="/notices" className="hover:text-secondary transition-colors">Notice Board</Link></li>
-              <li><Link href="/academics" className="hover:text-secondary transition-colors">Academics</Link></li>
               <li><Link href="/faculty" className="hover:text-secondary transition-colors">Faculty</Link></li>
               <li><Link href="/careers" className="hover:text-secondary transition-colors">Careers</Link></li>
             </ul>

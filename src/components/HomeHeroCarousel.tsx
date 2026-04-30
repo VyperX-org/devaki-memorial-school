@@ -14,9 +14,10 @@ import { cn } from '@/lib/utils';
 
 const heroSlides = [
   PlaceHolderImages.find((image) => image.id === 'school-aerial'),
-  PlaceHolderImages.find((image) => image.id === 'campus-5'),
-  PlaceHolderImages.find((image) => image.id === 'lab-3.3'),
   PlaceHolderImages.find((image) => image.id === 'campus-8'),
+  PlaceHolderImages.find((image) => image.id === 'event-2'),
+  PlaceHolderImages.find((image) => image.id === 'event-4'),
+  PlaceHolderImages.find((image) => image.id === 'event-3'),
 ].filter((image): image is NonNullable<typeof image> => Boolean(image));
 
 export function HomeHeroCarousel() {
