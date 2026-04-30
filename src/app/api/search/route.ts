@@ -13,7 +13,6 @@ const searchablePages = [
   { name: 'CONTACT', href: '/contact', type: 'page' },
   { name: 'ACHIEVEMENTS', href: '/achievements', type: 'page' },
   { name: 'ACADEMIC RESOURCES', href: '/academic-resources', type: 'page' },
-  { name: 'THE SCHOOL', href: '/about', type: 'page' },
   { name: 'CHAIRMAN\'S DESK', href: '/leadership#chairperson', type: 'page' },
   { name: 'PRINCIPAL\'S DESK', href: '/leadership#principal', type: 'page' },
   { name: 'FACULTY', href: '/faculty', type: 'page' },
