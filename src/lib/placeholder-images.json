@@ -7,6 +7,12 @@
       "imageHint": "school campus aerial"
     },
     {
+      "id": "toppers-popup",
+      "description": "Congratulations to the new toppers of the school",
+      "imageUrl": "https://i.ibb.co/hxr28K3M/DEVAKI-MEMORIAL-SCHOOL.jpg",
+      "imageHint": "school toppers"
+    },
+    {
       "id": "chairperson",
       "description": "Portrait of the school chairperson",
       "imageUrl": "https://i.ibb.co/7x5z39qy/founder.jpg",
@@ -275,6 +281,42 @@
       "description": "Class of 2022 Group Photo",
       "imageUrl": "https://picsum.photos/seed/y22-1/800/600",
       "imageHint": "students group"
+    },
+    {
+      "id": "year-2025-1",
+      "description": "Annual Sports 2025",
+      "imageUrl": "https://i.ibb.co/zW9VnC7F/1777542324656-jpg.jpg",
+      "imageHint": "school sports event"
+    },    
+    {
+      "id": "year-2025-2",
+      "description": "Senior Basketball School Team (Girls)",
+      "imageUrl": "https://i.ibb.co/HDJnWBW9/1777543206885-jpg.jpg",
+      "imageHint": "basketball game"
+    },
+    {
+      "id": "year-2025-3",
+      "description": "Senior Cricket School Team (Boys)",
+      "imageUrl": "https://i.ibb.co/VpvwNWPh/1777542401623-jpg.jpg",
+      "imageHint": "cricket game"
+    },
+    {
+      "id": "year-2025-4",
+      "description": "Shotokan Karate-Do Championships 2025",
+      "imageUrl": "https://i.ibb.co/21kv49Mm/1777542918140-jpg.jpg",
+      "imageHint": "karate championship"
+    },
+    {
+      "id": "year-2025-5",
+      "description": "Junior Race Team (Techno Olympica 2025)",
+      "imageUrl": "https://i.ibb.co/Txn75JJp/1777541983221-jpg.jpg",
+      "imageHint": "race team"
+    },
+    {
+      "id": "year-2025-6",
+      "description": "Cricket Practice (Techno Olympica 2025)",
+      "imageUrl": "https://i.ibb.co/SX9pXzm2/1777542191130-jpg.jpg",
+      "imageHint": "cricket practice"
     }
   ]
 }

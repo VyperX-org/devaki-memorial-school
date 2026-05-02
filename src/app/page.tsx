@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { HomeHeroCarousel } from '@/components/HomeHeroCarousel';
+import { ToppersPopup } from '@/components/ToppersPopup';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { cn } from '@/lib/utils';
 import { 
@@ -19,6 +20,7 @@ import {
 
 export default function Home() {
   const chairImg = PlaceHolderImages.find(img => img.id === 'chairperson');
+  const showToppersPopup = true;
 
   const importantLinks = [
     { title: 'Admissions', icon: <FileText />, href: '/admission' },
@@ -29,6 +31,8 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
+      <ToppersPopup enabled={showToppersPopup} />
+
       {/* Hero Section */}
       <section className="relative min-h-[600px] md:min-h-[500px] h-[80vh] md:h-[60vh] w-full overflow-hidden">
         <HomeHeroCarousel />

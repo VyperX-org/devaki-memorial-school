@@ -402,6 +402,7 @@ export default function Navbar() {
                   {social.icon}
                 </Link>
               ))}
+            <ModeToggle />
             </div>
           </div>
         </div>
