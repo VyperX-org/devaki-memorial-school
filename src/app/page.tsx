@@ -20,7 +20,7 @@ import {
 
 export default function Home() {
   const chairImg = PlaceHolderImages.find(img => img.id === 'chairperson');
-  const showToppersPopup = false; // Set to true to enable the toppers popup
+  const showToppersPopup = true; // Set to true to enable the toppers popup
 
   const importantLinks = [
     { title: 'Admissions', icon: <FileText />, href: '/admission' },
